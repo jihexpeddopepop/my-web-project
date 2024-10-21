@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>รุ่งลาวัลย์ ไฮวัง</title>
+</head>
+
+<body>
+<h1>ลงทะเบียน</h1>
+<form method="post" action="" enctype="multipart/form-data">
+	ชื่อ-สกุล <input type="text" name="fullname" autofocus required style="width:400px" size="50"><br>
+    เบอร์โทร <input type="text" name="phone" required><br>
+    วันเดือนปีเกิด <input type="date" name="brithday"><br>
+    ที่อยู่ <br> <textarea name="address" colos="40" rows="4"></textarea><br>
+    
+    ระดับการศึกษา
+    <select name="edu">
+    	<option value="1">ต่ำกว่าปริญญาตรี</option>
+        <option value="2">ปริญญาตรี</option>
+        <option value="3">ปริญญาโท</option>
+        <option value="4">ปริญญาเอก</option>
+    </select>
+    <br>
+    
+    เพศ <input type="radio" name="gender" value="ชาย" checked> ชาย
+    	<input type="radio" name="gender" value="หญิง"> หญิง
+    <br>
+        
+    อาหารที่ชอบ <input type="checkbox" value="1"> ข้าวกะเพรา
+              <input type="checkbox" value="1"> ข้าวขาหมู
+              <input type="checkbox" value="1"> ข้าวจ้าว
+              <input type="checkbox" value="1"> ส้มตำ
+              <input type="checkbox" value="1"> ไก่ย่าง
+	<br>
+    รูปภาพ <input type="file" name="picture"><br>
+    
+    
+    <input type="submit" value="บันทึก">
+    <input type="button" value="พิมพ์" onClick="window.print();"> 
+    <input type="button" value="ลิงค์1" onClick="window.location='http://www.msu.ac.th';">
+    <input type="reset">
+    
+    <button type="button" onClick="window.location='http://www.facebook.com';">ลิงค์2</button>
+    <br>
+    <br>
+    <br>
+    
+    <input type="color" name="a"><br>
+    <input type="week" name="b"><br>
+    <input type="number" name="c" min="1" max="10"><br>
+    <input type="email" name="d">
+    <input type="password" name="e">
+
+   
+</form>
+</body>
+</html>
